@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Biryani", sans-serif;
+  font-weight: 3s00;
+  font-style: normal;
+}
+.outer-box {
+  height: 100vh;
+  width: 100vw;
+  border: 5px solid red;
+  background: linear-gradient(
+    to top left,
+    rgb(237, 189, 189),
+    rgb(175, 175, 245)
+  );
+}
+
+.inner-box {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
